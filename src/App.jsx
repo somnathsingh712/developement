@@ -2,7 +2,6 @@ import useUser from "./hooks/useUser";
 import { Toaster } from "react-hot-toast";
 export default function App() {
   const { users, isLoading } = useUser();
-
   const shimmerStyle = {
     height: "20px",
     width: "200px",
