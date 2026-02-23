@@ -4,7 +4,7 @@ export default function App() {
   const { users, isLoading } = useUser();
   const shimmerStyle = {
     height: "20px",
-    width: "200px",
+    width: "80%",
     marginBottom: "12px",
     borderRadius: "6px",
     background:
